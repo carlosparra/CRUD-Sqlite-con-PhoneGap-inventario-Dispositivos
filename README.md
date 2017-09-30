@@ -1,6 +1,6 @@
 # Inventory PhoneGap App 
 
-A example CRUD PhoneGap App
+Example CRUD PhoneGap App
 
 ## Usage
 
