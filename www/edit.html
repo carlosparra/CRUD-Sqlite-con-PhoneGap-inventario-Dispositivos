@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Artículos</title>
+    <link rel="stylesheet" type="text/css" href="css/ionic.css">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bd.js"></script>
+    <script type="text/javascript" src="js/geturi.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var id = decodeURI(parseInt(getUrlVars()["id"]));
+            var title = decodeURI(getUrlVars()["title"]);
+            var desc = decodeURI(getUrlVars()["desc"]);
+            $("#id").text(id);
+            $("#title").val(title);
+            $("#desc").val(desc);
+
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="bar bar-header bar-dark">
+        <a class="button button-clear" href="index.html">PRINCIPAL</a>
+        <h1 class="title">Editar Artículo</h1>
+    </div>
+    <div style="padding:10px;margin-top:60px;">
+    <div class="list">
+        ID: <span id="id"></span>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Título</span>
+        <input type="text" id="title" placeholder="El título" value="">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Descripción</span>
+        <input type="text" id="desc" placeholder="Descripción">
+      </label>
+      <button id="update" class="button button-block">ACTUALIZAR</button>
+    </div>    
+    </div>
+
+</body>
+</html>
