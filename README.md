@@ -14,6 +14,6 @@ Después es necesario instalar el plugin de slqlite:
 
     phonegap plugin add cordova-sqlite-storage
 
-#### El siguiente paso
+El siguiente paso:
 
-    Buena Suerte!
+    ¡A programar!
