@@ -1,4 +1,4 @@
-# Inventory PhoneGap App [![bitHound Score][bithound-img]][bithound-url]
+# Inventory PhoneGap App 
 
 A example CRUD PhoneGap App
 
@@ -16,4 +16,4 @@ After you need to install slqlite plugin:
 
 #### Next Step
 
-Good Luck!
+    Good Luck!
