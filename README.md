@@ -2,7 +2,7 @@
 
 Ejemplo CRUD con Sqllite PhoneGap App
 
-## Usage
+## Uso
 
 #### PhoneGap CLI
 
