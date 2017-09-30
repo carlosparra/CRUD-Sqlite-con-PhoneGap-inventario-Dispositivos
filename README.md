@@ -1,19 +1,19 @@
-# Inventory PhoneGap App 
+# CRUD Sqlite con PhoneGap inventario Dispositivos
 
-Example CRUD PhoneGap App
+Ejemplo CRUD con Sqllite PhoneGap App
 
 ## Usage
 
 #### PhoneGap CLI
 
-You can create this application using the [phonegap-cli][phonegap-cli-url].
+Tu puedes crear la aplicación usando: [phonegap-cli].
 
     phonegap create captura
 
-After you need to install slqlite plugin:
+Después es necesario instalar el plugin de slqlite:
 
     phonegap plugin add cordova-sqlite-storage
 
-#### Next Step
+#### El siguiente paso
 
-    Good Luck!
+    Buena Suerte!
